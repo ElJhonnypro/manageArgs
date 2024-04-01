@@ -1,6 +1,6 @@
 {
   "name": "manage-args-node",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "this is for manage the args and put function in it",
   "main": "main.js",
   "scripts": {
