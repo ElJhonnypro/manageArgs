@@ -1,19 +1,25 @@
 {
-  "name": "nombre-del-paquete",
-  "version": "1.0.0",
-  "description": "Una breve descripción del paquete",
-  "main": "index.js",
+  "name": "manage-args-node",
+  "version": "0.0.1",
+  "description": "this is for manage the args and put function in it",
+  "main": "main.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx node-ts main.ts"
   },
-  "keywords": ["palabras", "clave", "para", "tu", "paquete"],
-  "author": "Tu Nombre <tu_correo@ejemplo.com>",
+  "keywords": [
+    "manage",
+    "cli",
+    "argv",
+    "easy",
+    "simple"
+  ],
+  "author": "Jhonathan Tabare tabarejhonathan@gmail.com",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/ElJhonnypro/manageArgs.git"
   },
-  "dependencies": {
-
+  "devDependencies": {
+    "@types/node": "^20.12.2"
   }
 }

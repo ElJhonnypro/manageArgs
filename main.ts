@@ -21,15 +21,4 @@ function manageArgs(process: NodeJS.Process, argscommands: any, log: Boolean) {
     }
 }
 
-function arg1() {
-    console.log("Executing arg1 function...");
-}
-
-function arg2() {
-    console.log("Executing arg2 function...");
-}
-
-manageArgs(process, {
-    "arg1": arg1,
-    "arg2": arg2
-}, false);
+module.exports = manageArgs;
