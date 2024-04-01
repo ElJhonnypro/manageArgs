@@ -9,6 +9,7 @@ function manageArgs(process: NodeJS.Process, argscommands: any, log: Boolean) {
             }
         } else if (log) {
             console.log("\x1b[1;32m" + "Default mode");
+            func()
         }
         
     } else {
